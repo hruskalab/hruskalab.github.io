@@ -1,80 +1,36 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
+title: Explicit solvation
+description: at DFT accuracy
+img: assets/img/mddf2.PNG
+importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/aspheric.PNG" title="aspheric" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/mddf2.PNG" title="mddf" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
+The solvation of molecules frequently has a large influence on the molecule. To better understand this influence, accurate models of explicit solvents are necessary. With <a href="https://github.com/Liu-group/AutoSolvate">Autosolvate software,</a> described [here](../3_project), accurate equilibration and sampling of a solvent shell can be reached. To reduce the computational requirements when calculating quantum mechanical properties with this solvent shell, the solvent shell size has to be selected carefully. Spherical solvent shells (top figures) don't cover the molecule as consistently as aspherical solvent shells. 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Solvent shells can be detected with radial distribution functions (RDF), but for comparing solvent shells of molecules with different sizes, an RDF shifted by the average molecule radius can be beneficial (lower figures). For aspherical molecules, which are very common, the minimum distance distribution function (MDDF) shows the solvent shells much clearer than a RDF. MDDFs measure the minimum distance between the molecule and solvent instead of the distance to the center of the molecule. 
 
-{% raw %}
-```html
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/closeness.PNG" title="closeness" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/closeness-solvent.PNG" title="closeness solvent" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
+The MDDF allows one to measure the dependency of the closeness between the molecule and solvent on the molecule. With machine learning this closeness relationship can be predicted from the molecule structure. The closeness depends on the solvent and is decreasing with the solvent's dielectric constant. 
+<div class="caption">
+    [Hruska et al., Autosolvate: A Toolkit for Automating Quantum Chemistry design and Discovery of Solvated Molecules, 2022]
+</div>
+
