@@ -30,6 +30,7 @@ Solvent shells can be detected with radial distribution functions (RDF), but for
     </div>
 </div>
 The MDDF allows one to measure the dependency of the closeness between the molecule and solvent on the molecule. With machine learning this closeness relationship can be predicted from the molecule structure. The closeness depends on the solvent and is decreasing with the solvent's dielectric constant. 
+
 <div class="caption">
     [Hruska et al., Autosolvate: A Toolkit for Automating Quantum Chemistry design and Discovery of Solvated Molecules, 2022]
 </div>
