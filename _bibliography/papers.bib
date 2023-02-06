@@ -5,10 +5,12 @@
   journal={J. Chem. Phys.},
   year={2018},
   url={https://doi.org/10.1063/1.5053582},
+  html={https://doi.org/10.1063/1.5053582},
   doi={10.1063/1.5053582},
   preview={Figure4a.png},
   abstract={Adaptive sampling methods, often used in combination with Markov state models, are becoming increasingly popular for speeding up rare events in simulation such as molecular dynamics (MD) without biasing the system dynamics. Several adaptive sampling strategies have been proposed, but it is not clear which methods perform better for different physical systems. In this work, we present a systematic evaluation of selected adaptive sampling strategies on a wide selection of fast folding proteins. The adaptive sampling strategies were emulated using models constructed on already existing MD trajectories. We provide theoretical limits for the sampling speed-up and compare the performance of different strategies with and without using some a priori knowledge of the system. The results show that for different goals, different adaptive sampling strategies are optimal. In order to sample slow dynamical processes such as protein folding without a priori knowledge of the system, a strategy based on the identification of a set of metastable regions is consistently the most efficient, while a strategy based on the identification of microstates performs better if the goal is to explore newer regions of the conformational space. Interestingly, the maximum speed-up achievable for the adaptive sampling of slow processes increases for proteins with longer folding times, encouraging the application of these methods for the characterization of slower processes, beyond the fast-folding proteins considered here.},
   altmetric={True},
+  bibtex_show={true},
 }
 
 @article{hruska2019extensible,
@@ -17,16 +19,20 @@
   journal={J. Chem. Theory Comput.},
   year={2020},
   url={https://pubs.acs.org/doi/10.1021/acs.jctc.0c00991},
+  html={https://pubs.acs.org/doi/10.1021/acs.jctc.0c00991},
   doi={10.1021/acs.jctc.0c00991},
   preview={adaptive-explore.PNG},
   abstract={The accurate sampling of protein dynamics is an ongoing challenge despite the utilization of high-performance computer (HPC) systems. Utilizing only “brute force” molecular dynamics (MD) simulations requires an unacceptably long time to solution. Adaptive sampling methods allow a more effective sampling of protein dynamics than standard MD simulations. Depending on the restarting strategy, the speed up can be more than 1 order of magnitude. One challenge limiting the utilization of adaptive sampling by domain experts is the relatively high complexity of efficiently running adaptive sampling on HPC systems. We discuss how the ExTASY framework can set up new adaptive sampling strategies and reliably execute resulting workflows at scale on HPC platforms. Here, the folding dynamics of four proteins are predicted with no a priori information.},
   code={https://github.com/ClementiGroup/ExTASY},
   altmetric={True},
+  preprint={https://arxiv.org/abs/1907.06954},
+  bibtex_show={true},
 }
 
 @article{redox1,
   title={Bridging the Experiment-Calculation Divide: Machine Learning Corrections to Redox Potential Calculations in Implicit and Explicit Solvent Models}, 
   url={https://doi.org/10.1021/acs.jctc.1c01040}, 
+  html={https://doi.org/10.1021/acs.jctc.1c01040}, 
   doi={10.1021/acs.jctc.1c01040},
   journal={J. Chem. Theory Comput.}, 
   author={Hruska, Eugen and Gale, Ariel and Liu, Fang}, 
@@ -34,6 +40,8 @@
   preview={solvent-shell.PNG},
   abstract={Prediction of redox potentials is essential for catalysis and energy storage. Although density functional theory (DFT) calculations have enabled rapid redox potential predictions for numerous compounds, prominent errors persist compared to experimental measurements. In this work, we develop machine learning (ML) models to reduce the errors of redox potential calculations in both implicit and explicit solvent models. Training and testing of the ML correction models are based on the diverse ROP313 data set with experimental redox potentials measured for organic and organometallic compounds in a variety of solvents. For the implicit solvent approach, our ML models can reduce both the systematic bias and the number of outliers. ML corrected redox potentials also demonstrate less sensitivity to DFT functional choice. For the explicit solvent approach, we significantly reduce the computational costs by embedding the microsolvated cluster in implicit bulk solvent, obtaining converged redox potential results with a smaller solvation shell. This combined implicit–explicit solvent model, together with GPU-accelerated quantum chemistry methods, enabled rapid generation of a large data set of explicit-solvent-calculated redox potentials for 165 organic compounds, allowing detailed investigation of the error sources in explicit solvent redox potential calculations.},
   altmetric={True},
+  preprint={https://chemrxiv.org/engage/chemrxiv/article-details/615f41128b620d134647d8c2},
+  bibtex_show={true},
 }
 
 @article{auto1,
@@ -41,6 +49,7 @@
   journal = {J. Chem. Phys.},
   title = {{AutoSolvate : A Toolkit for Automating Quantum Chemistry Design and Discovery of Solvated Molecules}},
   url = {https://doi.org/10.1063/5.0084833},
+  html = {https://doi.org/10.1063/5.0084833},
   doi={10.1063/5.0084833},
   year = {2022},
   preview={autosolvate.PNG},
@@ -48,6 +57,8 @@
   code={https://github.com/Liu-group/AutoSolvate},
   abstract={The availability of large, high-quality data sets is crucial for artificial intelligence design and discovery in chemistry. Despite the essential roles of solvents in chemistry, the rapid computational data set generation of solution-phase molecular properties at the quantum mechanical level of theory was previously hampered by the complicated simulation procedure. Software toolkits that can automate the procedure to set up high-throughput explicit-solvent quantum chemistry (QC) calculations for arbitrary solutes and solvents in an open-source framework are still lacking. We developed AutoSolvate, an open-source toolkit to streamline the workflow for QC calculation of explicitly solvated molecules. It automates the solvated-structure generation, force field fitting, configuration sampling, and the final extraction of microsolvated cluster structures that QC packages can readily use to predict molecular properties of interest. AutoSolvate is available through both a command line interface and a graphical user interface, making it accessible to the broader scientific community. To improve the quality of the initial structures generated by AutoSolvate, we investigated the dependence of solute-solvent closeness on solute/solvent identities and trained a machine learning model to predict the closeness and guide initial structure generation. Finally, we tested the capability of AutoSolvate for rapid data set curation by calculating the outer-sphere reorganization energy of a large data set of 166 redox couples, which demonstrated the promise of the AutoSolvate package for chemical discovery efforts.},
   altmetric={True},
+  preprint={https://chemrxiv.org/engage/chemrxiv/article-details/61db9b22db4d9f0ae2929eff},
+  bibtex_show={true},
 }
 
 @article{hruska2022ground,
@@ -56,9 +67,11 @@
   author={Hruska, Eugen and Zhao, Liang and Liu, Fang},
   year={2022},
   url={https://doi.org/10.26434/chemrxiv-2022-96slq-v2},
+  html={https://doi.org/10.26434/chemrxiv-2022-96slq-v2},
   doi={10.26434/chemrxiv-2022-96slq-v2},
   code={https://figshare.com/articles/dataset/Ground_truth_explanation_dataset_for_chemical_property_prediction_on_molecular_graphs/21706829/1},
   abstract={Interpretation of chemistry on an atomic scale improves with explainable artificial intelligence (XAI). The parts of the molecule with the most significant influence on the chemical property of interest can be visualized with atomwise and bondwise attributions. Nonetheless, the attributions from different XAI methods regularly disagree substantially, causing uncertainty about which explanation is correct. To determine a ground truth for attributions, we define chemical operations which avoid alchemical steps or approximations and allow extracting one attribution per atom or bond from existing datasets of chemical properties. This general procedure allows for generating large datasets of ground truth attributions. The approach allowed us to create a ground truth explanation dataset with more than 5 million data points for the HOMO-LUMO gap chemical property. This open-source dataset of atomistic ground truth explanations may serve as a reference for XAI approaches.},
   preview={atomwise6.png},
   altmetric={True},
+  bibtex_show={true},
 }

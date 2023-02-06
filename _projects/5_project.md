@@ -16,3 +16,4 @@ category: work
 Even for small molecules the thermal motion is significant, and the frequently used single structure for calculations can not represent the whole ensemble of conformations that the molecule samples. On the left the free energy landscape shows several local minima for one system in explicit solvent. The right plot shows that the investigated property (redox potential) varies across the ensemble.
 <div class="caption"> [Hruska et al. Bridging the experiment-calculation divide: Machine learning corrections to redox potential calculations in implicit and explicit solvent models, 2022]
 </div>
+[Previous](../4_project)  [Next](../6_project)

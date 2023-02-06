@@ -16,5 +16,6 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-Published research is described in [Section Research](projects). For news follow on [Twitter](https://twitter.com/HruskaEugen). I'm an academic assistant (tenure track) at [Faculty of Pharmacy, Charles University](https://portal.faf.cuni.cz/Profile/Hruska-Eugen/), which is located in Hradec Králové, Czechia. 
-<iframe style="border:none" src="https://en.frame.mapy.cz/s/jogaconenu" width="400" height="280" frameborder="0"></iframe>
+Published research is described in [Section Research](projects). For news follow on [Twitter](https://twitter.com/HruskaEugen). I'm an academic assistant (tenure track) at [Faculty of Pharmacy, Charles University](https://portal.faf.cuni.cz/Profile/Hruska-Eugen/), which is located in [Hradec Králové, Czechia.](https://en.mapy.cz/zakladni?source=firm&id=360719&ds=2&x=15.8358164&y=50.2015221&z=5) 
+
+

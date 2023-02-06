@@ -27,5 +27,4 @@ For larger molecules like proteins, the sampling of all conformations that the m
 To validate that adaptive sampling reaches the correct ensemble of conformations, adaptive sampling (black diagonal lines) is compared with plain molecular dynamics (colored background). Adaptive sampling (red) reaches the folded state (vertical lines) faster than plain molecular dynamics (blue). Note that the x-axis is logarithmic, indicating a significant speed up. 
 <div class="caption">[Hruska et al., Extensible and scalable adaptive sampling on supercomputers., 2020].
 </div>
-
-
+[Previous](../5_project)  [Next](../7_project)

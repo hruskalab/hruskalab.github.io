@@ -34,4 +34,4 @@ The MDDF allows one to measure the dependency of the closeness between the molec
 <div class="caption">
     [Hruska et al., Autosolvate: A Toolkit for Automating Quantum Chemistry design and Discovery of Solvated Molecules, 2022]
 </div>
-
+[Next](../2_project)

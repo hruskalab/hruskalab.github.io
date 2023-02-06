@@ -25,3 +25,4 @@ Running adaptive sampling strategies as described [here](../6_project) requires 
 The high scalability of the ExTASY package is enabled by asynchronous execution. The diagram illustrates that in the synchronous case up to 1000s of GPUs have to wait until the analysis step finishes. In contrast, in an asynchronous workflow the GPUs/nodes don't have to wait, significantly increasing the scalability of this heterogeneous use case. 
 <div class="caption"> [Hruska et al., Extensible and scalable adaptive sampling on supercomputers., 2020]
 </div>
+[Previous](../7_project)

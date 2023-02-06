@@ -20,3 +20,4 @@ The solvent at room temperature is not static. Chemical changes to the center mo
 <div class="caption">
     [Hruska et al., Bridging the experiment-calculation divide: Machine learning corrections to redox potential calculations in implicit and explicit solvent models, 2022]
 </div>
+[Previous](../1_project)  [Next](../3_project)

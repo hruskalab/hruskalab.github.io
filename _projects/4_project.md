@@ -32,4 +32,4 @@ For the low number of redox potential data points, machine learning features rel
 Machine learning could correct both systematic biases and reduce the size of outliers. 
 <div class="caption">[Hruska et al. Bridging the experiment-calculation divide: Machine learning corrections to redox potential calculations in implicit and explicit solvent models, 2022]
 </div>
-
+[Previous](../3_project)  [Next](../5_project)
