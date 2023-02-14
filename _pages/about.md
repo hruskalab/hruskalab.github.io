@@ -2,7 +2,7 @@
 layout: about
 title: Overview
 permalink: /
-subtitle: Computational Pharmacy | High-throughput simulation and explainable machine learning of drug-protein interactions.
+subtitle: Computational Pharmacology | High-throughput simulation and explainable machine learning of drug-protein interactions.
 
 profile:
   align: left
